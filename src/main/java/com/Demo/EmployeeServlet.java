@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 //@WebServlet("/EmployeeServlet")
 @WebServlet(
         urlPatterns = "/EmployeeServlet",
-        initParams = @WebInitParam(name = "employee", value = "D:/Uploads"))
+        initParams = @WebInitParam(name = "employee", value = "C:/Uploads"))
 
 public class EmployeeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
